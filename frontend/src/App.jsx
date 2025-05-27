@@ -8,7 +8,7 @@ import Navbar from './Pages/Navbar'
 
 export const AuthContext = createContext()
 
-const API_BASE_URL = 'http://localhost:8080'
+const API_BASE_URL = 'https://reg-log-entry-app-1-api.onrender.com'
 
 function App() {
   const [user, setUser] = useState(null)
